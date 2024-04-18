@@ -18,7 +18,7 @@ app.use(function(req, res, next) {
 // Route to handle requests to the root URL
 app.get('/', (req, res) => {
     const currentTime = new Date().toLocaleString();
-    const greetingMessage = `Hello World! Current server time is: ${currentTime} hello from VM-1`;
+    const greetingMessage = `Hello World! Current server time is: ${currentTime} hello from VM-2`;
     res.send(greetingMessage);
 });
 
